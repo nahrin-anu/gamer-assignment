@@ -1,0 +1,268 @@
+/*first section css*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px 130px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7rem;
+    background-color: azure;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    margin: 0px -8rem;
+    
+}
+
+.logo-container{
+            
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.game-sec{
+        color: deeppink;
+        
+}
+
+.nav-about {
+    display: flex;
+}
+
+.nav-list-items {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+}
+
+ul>li {
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.follow-btn{
+    border-radius: 5px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 5px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+.fa-youtube,
+.fa-tiktok {
+    width: 10px;
+    font-size: 25px;
+}
+
+.span-gap {
+    padding: 15px;
+}
+
+/*banner or section 2 css */
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28%;
+    background-color: wheat;
+    padding: 20px;
+   /* background-image: url(../images/Group 14.png);*/
+}
+
+.banner-head-1 {
+    color: #0B0223;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.banner-head-2 {
+    font-size: 85px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-sec{
+    background-color: #4EC5F7;
+}
+.banner-right-side > img{
+    width: 100%;
+}
+.banner-para-style{
+    color: #534C64;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.primary-btn{
+    color: navajowhite;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px 40px;
+    background-color: navy;
+    border-radius: 48px;
+    border: none;
+}
+.primary-btn:hover{
+    transition: 0.5s;
+    box-shadow: 3px 3px 3px gray;
+}
+.btn-sec{
+    background-color: #4EC5F7;
+}
+/*banner css ends here*/
+
+/*main section*/
+/*online section*/
+.online-game-container{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+.game-h3{
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+}
+.game-video{
+    color: purple;
+}
+.game-para{
+    margin-top: 12px;
+    color: #534C64;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.online-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.game-img{
+    width: 300px;
+    
+}
+
+.game-container > p{
+    margin-top: 0.5rem;
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 150%;
+}
+/*play section*/
+.play-section{
+    margin-top: 100px;
+    display: flex;
+    gap: 130px;
+    align-items: center;
+    justify-content: space-between;
+}
+.play-text > h3{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: right;
+}
+.play-text > p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 166.66%;
+    text-align: right;
+}
+.play-img > img{
+    width: 465px;
+    
+}
+.kitty-picture > img{
+    width: 170px;
+}
+.kitty-picture{
+    position: relative;
+    bottom: 150px;
+    right: 50px
+}
+/*icon name section*/
+.game-list{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    
+}
+.list{
+    display:flex;
+    align-items: center;
+    color: #0B0223;
+    font-size: 15px;
+    font-weight: 600;
+}
+.list:hover{
+    transition: 0.5s;
+    color: navy;
+    border-radius: 30px ;
+    border: 1px solid tomato;
+    box-shadow: 2px 2px 2px gray;
+}
+/*footer*/
+footer{
+    background-color: black;
+    padding: 10px;
+    margin: 0 -130px;
+    margin-top: 70px;
+}
+.footer-section{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 147px;
+}
+.footer-items{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 45px;
+    margin-bottom: 30px;
+
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    gap: 30px;
+}
+.footer-p{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.para{
+    gap: 30px;
+}
